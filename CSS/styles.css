@@ -1,0 +1,158 @@
+body {
+  /* color: #40514E; */
+  margin: 0;
+  text-align: center;
+  /* stacking fonts to gurantee that one displays  */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /* font-size is made a percentage rather than pixel so it can scale better or using the em rule
+  using rem = root em overides all other text size tags etc */
+  font-size: 5.625rem;
+  color: #1e212d;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #1e212d;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #b68973;
+}
+
+a {
+  color: #b68973;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #1e212d;
+}
+
+img {
+  margin-top: 10px;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #faf3e0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #faf3e0;
+  padding: 50px 0 20px;
+
+}
+
+.no {
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.tours {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pirate {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.contact-me {
+
+}
+
+.btn {
+  background: #1e212d;
+  background-image: -webkit-linear-gradient(top, #1e212d, #b68973);
+  background-image: -moz-linear-gradient(top, #1e212d, #b68973);
+  background-image: -ms-linear-gradient(top, #1e212d, #b68973);
+  background-image: -o-linear-gradient(top, #1e212d, #b68973);
+  background-image: linear-gradient(to bottom, #1e212d, #b68973);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #faf3e0;
+  background-image: -webkit-linear-gradient(top, #faf3e0, #faf3e0);
+  background-image: -moz-linear-gradient(top, #faf3e0, #faf3e0);
+  background-image: -ms-linear-gradient(top, #faf3e0, #faf3e0);
+  background-image: -o-linear-gradient(top, #faf3e0, #faf3e0);
+  background-image: linear-gradient(to bottom, #faf3e0, #faf3e0);
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
+/* positioning */
+/* static sits where it would naturally, doesn't affect the position of other elements */
+/* relative to the layout set by you */
+/* absolute is easier to set if it's relative to the body or 'parent' */
+/* fixed position for keeping the element while you scroll */
